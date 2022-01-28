@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>AUV-IITB Registration Portal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>Student Registration Portal</h1>
+		</div>
+	</header>
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="auv-iitb.org">Home</a></li>
+				<li><a href="auv-iitb.org/about-us.html">About</a></li>
+				<li><a href="auv-iitb.org/vehicles.html">Vehicles</a></li>
+                <li><a href="auv-iitb.org/index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+        <a class="fix-me button" href="auv-iitb.org">AUV-IITB</a>
+    </nav>
+    <section id="showcase">
+      <form class="my-form" action="process.php" method="POST">
+        <div class="form-group">
+        	<label>Name</label>
+        	<input type="text" name="name">
+        </div>	
+        <br>
+        <div class="form-group">
+        	<label>Class</label>
+        	<input type="number" name="class">
+        </div>	
+        <br>
+        <div class="form-group">
+        	<label>Age</label>
+        	<input type="number" name="age ">
+        </div>
+        <br>	
+        <div class="form-group">
+        	<label>Roll Number</label>
+        	<input type="text" name="Roll number">
+        </div>
+        <br>	
+        <div class="form-group">
+        	<label>Email</label>
+        	<input type="text" name="email">
+        </div>
+        <br>	
+        <div class="form-group">
+        	<label>Gender</label>
+        	<select name="gender">
+        		<option value="Male">Male</option>
+        		<option value="Female">Female</option>
+        		<option value="Other">Other</option>
+        	</select>	
+        </div>	
+        <br>	
+        <div class="form-group">
+        	<label>Doubt</label>
+        	<textarea name="doubt"></textarea>
+        </div>
+        <br>	
+        	<input class="Button" type="submit" value="Submit" name="">
+      </form>
+    </section>   
+    <article id="main-article">
+    	<p>AUV lab, Aerospace dept basement</p>
+    	<p> IIT Area Powai,Mumbai Maharashtra-400076
+    	</p>
+    </article>
+
+
+    <footer id="main-footer">
+    	<p>Designed by AUV-IITB</p>
+    	<p>Copyright &copy; 2022, AUV-IITB</p>
+    </footer>
+        
+</body>
+</html>
