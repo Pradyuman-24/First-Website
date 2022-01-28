@@ -79,3 +79,6 @@ body{
 	background-color: green;
     width: 5%;
 }
+.form-group{
+	vertical-align: top;
+}
